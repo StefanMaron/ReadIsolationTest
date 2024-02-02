@@ -7,7 +7,7 @@ table 50100 TableA
         field(1; EntryNo; Integer)
         {
             DataClassification = ToBeClassified;
-            autoIncrement = true;
+            autoIncrement = true; // prevent bulk insert for consistent results
 
         }
     }
